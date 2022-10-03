@@ -1,0 +1,298 @@
+:root {
+    --prim:#e5e8ea;
+    --sec: #ecf1f6;
+    --client: #66635e;
+    --tophead:#b7cce3;
+    --topfoot: #5c5954;
+    --bottomfoot: #413e39;
+}
+
+/* 
+Utility Classes
+*/
+
+/* 
+Global Styling
+ */
+body {
+    background-color: var(--prim);
+}
+/* 
+Header
+ */
+
+
+
+.icon {
+    display: inline-block;
+    width: 2em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+    
+}
+
+.top-nav {
+    background-color: var(--tophead);
+}
+
+.brand {
+    margin-top: 16px;
+    font-family: 'Days One', sans-serif;
+    color: #413e39;
+}
+
+.nav-item {
+    color: var(--prim);
+    font-family: 'Bebas Neue', cursive;
+}
+
+.nav-item a {
+    color: var(--prim);
+}
+
+
+
+.top-nav .nav-item :hover {
+    color: #413e39;
+}
+.bottom-nav {
+    background: rgb(151, 199, 234);
+    background: linear-gradient(180deg, rgb(103, 127, 154) 0%, rgb(99, 121, 164) 29%);
+}
+
+.bottom-nav a:hover {
+    background-color: var(--prim);
+    border-radius: 5px;
+    color: #413e39;
+}
+
+/* 
+Main
+*/
+
+.slogan {
+    font-size: 30px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    color: #413e39;
+}
+
+.hero-section {
+    background-image: url(../media/Las.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.hero-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .5);
+
+}
+
+/* .carousel-header-top {
+    font-size: 120px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 250px;
+}
+
+.carousel-header-bottom {
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.carousel-box {
+    height: 675px;
+    text-align: center;
+    position: relative;
+}
+
+
+
+.las {
+    background-image: url(../media/Las.jpg);
+    background-size: cover;
+}
+
+.pizza {
+    background-image: url(../media/Pizza.jpg);
+    background-size: cover;
+}
+
+.spagetti {
+    background: url(../media/Spageti.jpg);
+    background-size: cover;
+}
+
+.inside-div {
+    text-align: left;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 400px;
+    background-color: #c5dcff;
+    padding: 20px;
+    font-style: italic;
+}
+
+.inside-header {
+    color: #18263b;
+}
+
+.inside-text {
+    color: #55739f;
+} */
+
+.hero-mid {
+    margin: 40px 0 40px;
+}
+
+.img-set2 {
+    padding-top: 20px;
+}
+
+
+.hero-bottom {
+    background-color: var(--sec);
+}
+
+.hero-bottom h1 {
+    font-size: 30px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    color: #413e39;
+}
+
+/* .mud span{
+    font-size: 10px;
+} */
+
+.kitchen {
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.icon-mug, .icon-spoon-knife, .icon-heart {
+    color: #4c6e91;
+}
+
+.offer {
+    /* margin-top: -20px; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    color: #4c6e91;
+}
+
+.offer p {
+    font-size: 20px;
+}
+
+.offer span{
+    font-size: 10px;
+}
+
+.description {
+    font-size: 10px;
+    /* padding-left: 60px; */
+}
+
+.description a {
+    font-size: 10px;
+    text-decoration: none;
+    color: #4c6e91;
+    
+}
+
+@media (min-width: 768px) {
+    .offer {
+        margin-top: -20px;
+        
+    }
+    .description {
+        padding-left: 60px;
+    }
+}
+
+/* 
+    Footer
+*/
+
+
+.client-section {
+    padding-top: 15px;
+    background-color: var(--client);
+    color: rgb(216, 216, 216);
+}
+
+.client1 {
+    font-family: 'Abhaya Libre', serif;
+}
+
+.client2 {
+    font-family: 'Oswald', sans-serif;
+}
+
+.client3 {
+    font-family: 'Ms Madi', cursive;
+}
+
+.client4 {
+    font-family: 'Anton', sans-serif;
+}
+
+.client5 {
+    font-family: 'Aguafina Script', cursive;
+}
+
+.client6 {
+    font-family: 'Edu TAS Beginner', cursive;
+}
+
+.bottom-section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: var(--bottomfoot);
+    color: rgb(216, 216, 216);
+
+}
+
+.bottom-section h1 {
+    font-weight: 900;
+}
+
+.about, .blog {
+    font-size: 12px;
+}
+
+.about-link {
+    color: rgb(216, 216, 216);
+    font-size: 12px;
+}
+
+.content1 {
+    font-weight: bold;
+}
+
+.brand2 {
+    font-family: 'Days One', sans-serif;
+}
+
+/* 
+About Page
+*/
+
+.hero-mid h1 {
+    font-family: 'Days One', sans-serif;
+}
+
+.box {
+    background-color: white;
+    padding: 10px;
+}
+
