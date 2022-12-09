@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../../programming/nomiyaProject"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "restaurant"
+	}
+}
